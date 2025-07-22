@@ -1,0 +1,127 @@
+/* MushroomList.module.css */
+.container {
+  padding: 10px;
+  background-color: #F2F2F2;
+  max-width: fit-content; 
+  border-top-left-radius: 30px; 
+  border-top-right-radius: 30px; 
+  margin: 0 auto;
+  margin-bottom: 50px
+}
+
+.similarListContainer {
+  width: 290px;
+  height: 300px;
+  overflow: visible;
+  padding: 0px 5px;
+  margin: 0 auto;
+  background-color: #F2F2F2;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+ 
+}
+
+.mushroomGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  column-gap: 10px;
+  row-gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; 
+  width: fit-content; 
+}
+
+.similarGrid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  max-width: 330px;
+  margin: 0 auto;
+  column-gap: 50px;
+  
+}
+
+.mushroomItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleContainer {
+  display: flex;         
+  align-items: center;   
+  gap: 8px;              
+  justify-content: center; 
+  margin-bottom: 20px
+}
+
+.listTitle {
+  font-size: 1.5rem;
+  color: #324053;
+  font-weight: bold;
+  text-align: center;
+  width: auto;          
+  margin: 0;            
+  font-family: 'Nunito', sans-serif;
+}
+
+.infoIcon {
+  width: 18px;
+  height: 18px;  
+}
+
+.emptyState {
+  text-align: center;
+  padding: 30px;
+  color: #666;
+}
+
+.infoIconWrapper {
+  position: relative;
+}
+
+.infobox {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.infoboxOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  padding: 10px;
+  background-color: #F2F2F2;
+  max-width: fit-content;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.similarListContainer {
+  position: relative;
+  width: 290px;
+  height: 300px;
+  overflow: visible;
+  padding: 0px 5px;
+  margin: 0 auto;
+  background-color: #F2F2F2;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}

@@ -1,0 +1,137 @@
+/* MushroomCard.module.css */
+.polaroidCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.polaroidImageContainer {
+  background-color: white;
+  padding: 6px 6px 20px 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  width: 100.91px;    
+  height: 126.77px;  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  pointer-events: auto;
+}
+
+.polaroidImage {
+  width: 94.24px;     
+  height: 102.58px;   
+  object-fit: contain;
+}
+
+.mushroomTitle {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #203B5F;
+  margin-top: 0;
+}
+
+.matchBadge {
+  border-radius: 4px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.warningIcon {
+  position: absolute;
+  top: 10px;
+  right: 68px;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+}
+
+
+.warningIconWithPercentage {
+  position: absolute;
+  top: 8px;
+  left: 42px; 
+  width: 20px;
+  height: 20px;
+}
+
+.matchBadgeHigh {
+  background-color: #73D89FE5; /* >= 90% */
+}
+
+.matchBadgeMedium {
+  background-color: #FF6666; /* >= 80% */
+}
+
+.matchBadgeLow {
+  background-color: #FF7E7E; /* >= 70% */
+}
+
+.matchBadgeVeryLow {
+  background-color: #A5A5A5E5; /* < 70% */
+}
+
+
+.matchResultsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 290px;   
+  height: 290px;   
+}
+
+.matchResultsImageContainer {
+  background-color: white;
+  padding: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  width: 267px;    
+  height: 210px;   
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.matchResultsImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.matchResultsSkullIcon {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 17.88px;  
+  height: 22px;    
+  z-index: 10;
+}
+
+.matchResultsBadge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: flex;
+  background-color: #FF5050;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  padding: 0 0.5rem;
+  z-index: 10;
+  width: 99.68px;  
+  height: 24px;    
+}

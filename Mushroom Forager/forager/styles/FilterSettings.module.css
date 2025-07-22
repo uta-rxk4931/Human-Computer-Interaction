@@ -1,0 +1,71 @@
+/* FilterSettings.module.css*/
+.container {   
+    max-width: 380px;
+    height: 806px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin-top: 2rem;
+  }
+
+  .headerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0 1em 0;
+    color: #000;
+    text-align: center;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 2rem;
+  }
+
+  .filterHeading {
+    color: #000;
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 2rem;
+  }
+
+  .tagContainer {
+    display: flex;
+    justify-content: left;
+    margin: 0 0 8px 30px;
+
+  }
+
+  .pillGrid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 50px 10px;
+    padding: 0 10px;
+    align-items: left;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+
+  .Heading {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 15px 0;
+  }
+
+  .title {
+    color: #000;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+  }
+
+  .closeIcon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+  }

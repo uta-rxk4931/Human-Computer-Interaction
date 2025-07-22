@@ -1,0 +1,31 @@
+/* Infobox.module.css */
+.container {
+    width: 261px;
+    height: 109px;
+    background-color: #6BC591;
+    border-radius: 19px;
+    padding-top: 25px; 
+    padding-left: 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    font-family: 'Nunito', sans-serif;
+    font-size: 11px;
+    position: relative; 
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 4px; 
+    right: 8px; 
+    border-radius: 9999px; 
+    padding: 4px;
+    transition: background-color 0.2s ease-in-out; 
+  }
+  
+  .closeButton:hover {
+    background-color: #5ab380;
+  }
+  
+  .message {
+    padding-right: 1.25rem; 
+  }

@@ -1,0 +1,90 @@
+/*BackgroundScreen.module.css*/
+.cameraContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.cameraView {
+  flex: 1;
+  position: relative;
+}
+
+.focusBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 280px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 402px;
+  height: 132px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 10;
+}
+
+.backButton,
+.flashButton {
+  padding: 10px;
+  background: opaque;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 402px;
+  height: 132px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 10;
+}
+
+.captureButton {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.albumButton,
+.flipButton {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

@@ -1,0 +1,87 @@
+/* Comparison_Image_module */
+
+.imageComparisonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  
+  .imageCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .polaroidCard {
+    background-color: white;
+    padding: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+    position: relative;
+    width: 163px; 
+    height: 251px; 
+  }
+  
+  .polaroidImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .polaroidImage {
+    width: 150px; 
+    height: 193px; 
+    object-fit: cover;
+  }
+  
+  .mushroomTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7rem; 
+    color: #203B5F;
+    margin-top: 0.5rem;
+  }
+  
+  /* Icons and badge */
+  .skullIcon {
+    position: absolute;
+    top: 0.25rem;
+    left: 0.5rem;
+    z-index: 10;
+  }
+  
+  .warningIcon {
+    width: 1.125rem; 
+    height: 1.09375rem; 
+    margin-right: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .matchBadge {
+    position: absolute;
+    top: 0.25rem;
+    right: 2rem;
+    display: flex;
+    background-color: #FF5050;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    padding: 0 0.5rem;
+    z-index: 10;
+    width: 6.23rem; 
+    height: 1.375rem; 
+  }
+  
+  .badgeText {
+    font-weight: bold;
+    font-size: 0.6875rem; 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

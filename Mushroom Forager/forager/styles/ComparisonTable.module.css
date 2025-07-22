@@ -1,0 +1,121 @@
+/* ComparisonTable.module.css */
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 1rem;
+  margin-left: 1.3rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #FFFFFF
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  position: relative;
+  max-width: 403px; 
+}
+
+.tableVerticalDivider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #203B5F;
+  transform: translateX(-0.5px);
+}
+
+.tableVerticalDivider:nth-child(1) {
+  left: 33.333%;
+}
+
+.tableVerticalDivider:nth-child(2) {
+  left: 66.666%;
+}
+
+.tableColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tableRow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 1rem 0; 
+}
+
+.tableCell {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-bottom: 0;
+  position: relative;
+}
+
+.tableCellWithBorder {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-bottom: 0;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem; 
+}
+
+.input {
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem; 
+  font-weight: bold;
+  color: #203B5F;
+  border: 1px solid #F2F2F2;
+  border-radius: 0.25rem;
+  outline: none;
+  text-align: center;
+  flex-grow: 1; 
+  height: 1.5rem; 
+}
+
+.input:focus {
+  border-color: #579076;
+  box-shadow: 0 0 0 2px rgba(87, 144, 118, 0.3);
+}
+
+.clearButton {
+  background: none;
+  border: none;
+  font-size: 0.75rem; 
+  font-weight: bold;
+  color: #203B5F;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  margin-right: 0; 
+}
+
+.clearButton:hover {
+  color: #EF4444;
+}
+
+.cellText {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #203B5F;
+  text-align: center; 
+  line-height: 1.5; 
+}

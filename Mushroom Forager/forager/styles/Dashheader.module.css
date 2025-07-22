@@ -1,0 +1,64 @@
+/* DashHeader.module.css */
+.dashboardHeader {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 11rem; /* 160px */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #397367;
+  z-index: 0;
+
+
+}
+
+.greetingContainer {
+  margin-bottom: 3rem;
+  margin-left: 2.8rem;
+}
+
+.greeting {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 150%;
+  font-weight: normal;
+  line-height: 2.5rem;
+}
+
+.username {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 300%;
+  font-weight: bold;
+  line-height: 2.5rem;
+  
+}
+
+.profilePicture {
+  margin-bottom: 2rem;
+  margin-right: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  background-color: #5F464B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileLetter {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 120%;
+  font-weight: normal;
+  line-height: 2.5rem;
+}
+
+.backgroundImage {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
